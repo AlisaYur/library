@@ -1,0 +1,19 @@
+<Context>
+  <Resource name="jdbc/library"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="org.postgresql.Driver"
+    url="jdbc:postgresql://localhost:5432/library?useEncoding=true&amp;characterEncoding=UTF-8"
+    username="postgres"
+    password="psql123"
+    maxTotal="120"
+    maxWaitMillis="10000"
+    maxConnLifetimeMillis="10000"
+    initialSize="10"
+    validationQuery='SELECT 1'
+    minEvictableIdleTimeMillis="1000"
+    timeBetweenEvictionRunsMillis="1000"
+    removeAbandonedTimeout="10"
+    removeAbandonedOnBorrow="true"
+    removeAbandonedOnMaintenance="true"/>
+</Context>

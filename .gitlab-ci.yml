@@ -1,0 +1,20 @@
+image: maven:latest
+
+variables:
+  MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+  POSTGRES_DB: librarytest
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: "psql123"
+  POSTGRES_PORT: 5432
+
+build:
+  only:
+    - develop
+  stage: build
+  script:
+    - 'mvn -B clean'
+    - 'mvn -B install'
+
+services:
+  - postgres:10

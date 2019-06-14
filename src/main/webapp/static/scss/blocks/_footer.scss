@@ -1,0 +1,21 @@
+.footer_wrapper {
+  background: #2c3946;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+
+  .footer_info {
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid hsla(0, 0%, 100%, .2);
+
+    .footer_text_info {
+      color: #fff;
+    }
+  }
+}

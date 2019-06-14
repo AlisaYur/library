@@ -1,0 +1,6 @@
+INSERT INTO role (name)
+VALUES ('ADMIN_ROLE');
+INSERT INTO role (name)
+VALUES ('READER_ROLE');
+INSERT INTO role (name)
+VALUES ('LIBRARIAN_ROLE');

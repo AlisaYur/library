@@ -1,0 +1,135 @@
+.reader-cabinet-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 64px - 55px);
+  overflow-y: auto;
+
+  .reader-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 400px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+    .reader-head-cab {
+      .user-view {
+        display: flex;
+        height: 100px;
+        margin: 0;
+
+        .background {
+          height: 100%;
+          width: 100%;
+          background: url(/static/images/headerUserPhoto.jpg) no-repeat center center;
+        }
+      }
+    }
+
+    .reader-side-content-cab {
+      .head_side {
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+
+        .operations-list {
+          display: flex;
+          flex-direction: column;
+          height: inherit;
+          align-items: center;
+
+          .btn_oper {
+            margin: 15px 0;
+            width: 15em;
+
+            .change_pass {
+              font-size: 13px;
+            }
+          }
+
+          .btn_log_out {
+            justify-content: flex-end;
+            margin: 15px 0 10px 0;
+            width: 15em;
+
+            .log_out_link {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: relative;
+
+              .log_out_span {
+                color: #fff;
+              }
+
+              .log_out_icon {
+                color: #fff;
+                position: absolute;
+                right: 0;
+              }
+            }
+          }
+        }
+
+        a {
+          text-align: center;
+
+          .name, .email {
+            color: gray !important;
+          }
+        }
+      }
+    }
+
+    .user-block-divider {
+      margin: 0;
+    }
+
+    .content_user_block {
+      .link_user_block {
+        width: 100%;
+      }
+
+      .user_block_elem {
+        display: flex;
+        flex-flow: row;
+
+        i {
+          color: #797979;
+        }
+
+        span {
+          color: #797979;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .order_block_wrapper {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .orders_table {
+      .head_orders_table {
+        width: 15%;
+      }
+    }
+
+    .cab_reader_search {
+      width: 100%;
+      padding: 0 0 0 20px;
+    }
+  }
+
+  #send_mail {
+    width: 30%;
+    height: 500px;
+
+    .model_email_body {
+      .textarea_message {
+        height: 45%;
+      }
+    }
+  }
+}

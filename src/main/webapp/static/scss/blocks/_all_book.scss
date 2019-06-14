@@ -1,0 +1,216 @@
+.books_fragment {
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  background: #f6f6f6;
+  margin-right: 20px;
+
+  .all-books-container {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+    .soring_wrapper {
+      display: flex;
+      margin: 20px;
+      padding-top: 20px;
+
+      .title_sorting {
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .sort_select {
+        border-bottom: 1px dotted deepskyblue;
+        margin-left: 15px;
+      }
+    }
+
+    #filter_tag {
+      padding: 0 20px 0 20px;
+    }
+
+    .center_page {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      font-size: 1.5em;
+    }
+
+    .grid_wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 0.5fr);
+      margin: 10px 20px 90px 20px;
+
+      .book_element {
+        margin-bottom: 30px;
+        border-right: 1px solid rgba(0, 0, 0, .11);
+        position: relative;
+        border-radius: 3px;
+        background: #fff;
+        max-width: 300px;
+        text-align: center;
+        padding: 15px;
+
+        .image_book {
+          width: 100%
+        }
+
+        .info_book_grid {
+          .caption_book {
+            padding: 5px;
+          }
+        }
+
+        .admin_panel_book {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 15px;
+
+          .elements_panel {
+            display: flex;
+
+            a {
+              margin-left: 10px;
+            }
+
+            .delete_book_btn {
+              background: transparent;
+              border: none;
+            }
+
+            .delete_book_btn:hover {
+              cursor: pointer;
+            }
+          }
+        }
+
+        .payment_block {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+
+          .book_btn {
+            display: flex;
+            border-radius: 4px;
+            border: none;
+            outline: 0;
+            height: 30px;
+            color: white;
+            cursor: pointer;
+            font-size: 18px;
+            margin-right: 10px;
+
+            .link_buy_book {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .disabled_buy_link {
+              cursor: not-allowed;
+              opacity: 0.5;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .caption_book_author {
+          color: rgba(0, 0, 0, .54);
+          align-self: center;
+        }
+      }
+
+      .book_footer {
+        position: absolute;
+        display: none;
+        border-top: 1px solid rgba(0, 0, 0, .11);
+        width: 88%;
+        line-height: 25px;
+      }
+
+      .footer_caption {
+        margin-top: 15px;
+
+        .caption_book {
+          text-align: left;
+
+          .footer_category {
+            color: rgba(0, 0, 0, .54);
+          }
+        }
+      }
+    }
+
+    .disabled {
+      background: #f6f6f6;
+
+      .buy_icon {
+        color: gray;
+      }
+    }
+
+    .disabled:hover {
+      background: #f6f6f6;
+
+      .buy_icon {
+        color: gray;
+      }
+    }
+  }
+
+  .book_element:hover {
+    height: 120%;
+    z-index: 3;
+    transition: 1s;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .15), 0 3px 16px rgba(0, 0, 0, .07), 0 9px 12px rgba(0, 0, 0, .09);
+    max-width: 300px;
+    text-align: center;
+
+    .book_footer {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+#createOrder {
+  width: 46%;
+
+  .modal-content {
+    .close_create_book {
+      color: #000;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+
+    .dates_create_order {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .btn_submit {
+      margin-top: 15px;
+    }
+
+    .input_book_name {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .select_type_issue_label {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .select-dropdown {
+      text-align: center;
+    }
+  }
+}

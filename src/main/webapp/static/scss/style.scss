@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import "variables.scss";
+@import "mixins.scss";
+@import "blocks/signin";
+@import "blocks/signup";
+@import "core.scss";
+@import "fonts.scss";
+@import "reset.scss";
+@import "materialize.scss";
+@import "blocks/header";
+@import "blocks/left_bar";
+@import "blocks/all_book";
+@import "blocks/all_authors";
+@import "blocks/all_genres";
+@import "blocks/readerCabinet";
+@import "blocks/main_menu";
+@import "blocks/all_readers";
+@import "blocks/author";
+@import "blocks/footer";
+@import "blocks/confirmReg";
+@import "blocks/managerCabinet";
+@import "blocks/dot";

@@ -1,0 +1,54 @@
+#info_order_block {
+  display: none;
+  justify-content: center;
+  width: 28%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+  .order_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .reader_info {
+      display: flex;
+      flex-direction: column;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+#select_order_block {
+  display: flex;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  width: 28%;
+}
+
+.light-gray {
+  background: #dadada;
+}
+
+#send_mail {
+  .header_mail {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .model_email_body {
+    padding-top: 0;
+
+    .form_main_wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .btn_send {
+        width: 18%;
+        align-self: center;
+        margin-top: 20px;
+      }
+    }
+  }
+}

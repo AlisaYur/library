@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib>
+  <jsp-version>2.0</jsp-version>
+  <tlib-version>1.0</tlib-version>
+  <short-name>error</short-name>
+  <uri>http://library.com</uri>
+
+  <tag>
+    <name>error</name>
+    <tag-class>ua.nure.library.web.tags.ErrorTag</tag-class>
+  </tag>
+</taglib>
