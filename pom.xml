@@ -197,7 +197,7 @@
         <configuration>
           <url>${db.url}</url>
           <user>postgres</user>
-          <password>psql123</password>
+          <password>postgres</password>
         </configuration>
         <dependencies>
           <dependency>
@@ -212,7 +212,7 @@
             <configuration>
               <url>${db.url}test</url>
               <user>postgres</user>
-              <password>psql123</password>
+              <password>postgres</password>
             </configuration>
           </execution>
         </executions>

@@ -5,7 +5,7 @@ variables:
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
   POSTGRES_DB: librarytest
   POSTGRES_USER: postgres
-  POSTGRES_PASSWORD: "psql123"
+  POSTGRES_PASSWORD: "postgres"
   POSTGRES_PORT: 5432
 
 build:
