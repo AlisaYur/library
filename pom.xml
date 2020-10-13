@@ -23,7 +23,7 @@
     <javaee-api.version>7.0</javaee-api.version>
     <javaee-web-api.version>6.0</javaee-web-api.version>
     <lombok.version>1.18.6</lombok.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <tomcat-maven-plugin.vesrion>2.2</tomcat-maven-plugin.vesrion>
     <gson.version>2.8.5</gson.version>
     <liqpay-sdk.version>0.6</liqpay-sdk.version>
