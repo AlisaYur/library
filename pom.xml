@@ -29,7 +29,7 @@
     <liqpay-sdk.version>0.6</liqpay-sdk.version>
     <mockito.version>1.9.5</mockito.version>
     <commons-upload.version>1.3.3</commons-upload.version>
-    <commons-io.version>2.4</commons-io.version>
+    <commons-io.version>2.7</commons-io.version>
     <commons-loggins.version>1.1.1</commons-loggins.version>
     <httpclient.version>4.5.3</httpclient.version>
     <db.url>jdbc:postgresql://localhost:5432/library</db.url>
